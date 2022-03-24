@@ -1,0 +1,412 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+/* ------------------ BODY ------------------ */  
+
+body {
+    background-color: #ebebeb;
+    font-family: 'Roboto', sans-serif;
+    
+}
+h3{
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+p {
+    font-size: 12px;
+}
+ul {
+    font-size: 12px;
+    list-style-type: none;
+}
+.main-header-bot a {
+    margin: 4px;
+}
+
+
+
+
+
+/* ------------------ HEADER ------------------ */
+
+header {
+    margin: auto;
+    background-color: #EAC926;  
+    text-align: center;
+    padding-bottom: 30px;
+}
+.nav-l, .nav-r {
+    display: none;
+}
+.compraEnCuotas {
+    width: 300px;
+    text-align: right;
+}
+.burger-menu {
+    background-color: #1259c3;
+    color: white ;
+    font-size: 20px;
+    border-radius: 3px;
+    padding: 10px 13px 10px 13px;
+    display: inline-block;
+}
+.banner {
+    margin: 0 auto;
+    width: 100%;
+}
+.mht-left a {
+    margin-right: 10px;
+}
+.search-bar {
+    height: 40px;
+    align-self: center;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 4px;
+    width:  50%;
+}
+
+.fa-search {
+    font-size: 13px;
+    align-self: center;
+    margin-left: -16px;
+}
+
+.main-header-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding: 20px 0px;
+    align-items: center;
+}
+
+.mht-left {
+    display: flex;
+    margin: 0px 10px;
+}
+
+.compraEnCuotas {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    width: fit-content;
+}
+
+
+
+
+
+
+/* ------------------ MAIN ------------------ */
+
+main {
+    justify-content: center;
+    margin: 0 auto;
+    width: 90vw;
+}
+main article {
+    background-color: white;
+    border-radius: 3px;
+}
+
+.product_img{
+    width: 100%;
+}
+
+.productos {
+    width: fit-content;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+.desc-productos {
+    padding: 20px 0px 5px;
+    text-align: left;
+    border-top: #ebebeb 1px solid;
+}
+
+.desc-productos .precio{
+    display: inline;
+    padding-right: 7px;
+}
+
+.desc-productos .descuento{
+    display: inline;
+    
+}
+
+.desc-productos {
+    display: block;
+    color: #666;
+    padding-top: 20px;
+}
+.TituloSeccion {
+    color: #666;
+    padding: 30px;
+    font-size: 24px;
+    text-align: left;
+}
+.precio{
+    display: inline;
+    font-size: 18px; 
+}
+.descuento {
+    font-size: 16px;
+    color: #39b54a;
+    font-weight: 500 ;
+}
+.desc-productos i{
+    position:absolute;
+    right: 12%;
+    margin-top: -37px;
+    display: block;
+    border-radius: 100%;
+    color: #39b54a;
+    padding: 5px;
+    border: 1px solid #39b54a;
+    height: 33px;
+    width: 33px;
+    font-size: 1.2rem;
+}
+
+.descripcion {
+    display: none;
+}
+
+
+
+
+
+
+/* ------------------ FOOTER ------------------ */
+footer{
+    display: block;
+    padding-top: 30px;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+}
+.footerIcons{
+    font-size: 2em;
+    padding-bottom: 10px;
+    color: #1259c3;
+    transition: all 250ms;
+}
+.footersecciones:hover .footerIcons{
+    font-size: 2.5em;
+    padding-bottom: 10px;
+    color: #39b54a;
+    transition: all 250ms;
+}
+.copyright{
+    padding: 10px 0px;
+}
+.footersecciones{
+    margin: 0px 0px 30px;
+}
+
+
+
+
+
+/* ------------------ FORMULARIOS ------------------ */
+
+.formulario-registro {
+    margin: 0px 10%;
+    justify-content: center;
+    text-align: center;
+}
+
+.formulario-ingreso {
+    text-align: center;
+}
+.nombre_usuario {
+    height: 40px;
+    align-self: center;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 4px;
+    width:  80%;
+    margin: 20px 10px;
+}
+.contraseña {
+    height: 40px;
+    align-self: center;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 4px;
+    width:  80%;
+    margin: 20px 10px;
+}
+.BotonEnviar {
+    color: white;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: #1259c3;
+    height: 40px;
+    border-radius: 5px;
+    width: 80%;
+    margin: 10px 0px 20px 10%;
+    transition: 250ms;
+}
+.BotonEnviar:hover {
+    background-color: #0022AA;
+    color: white;
+}
+.divCasillaFormulario{
+    position: relative;
+    padding-bottom: 20px;
+}
+.divCasillaFormulario i{
+    visibility: visible;
+    position: absolute;
+    font-size: 0.5rem;
+    top: 25px;
+    right: 20px;
+}
+.divCasillaFormulario p{
+    visibility: hidden;
+    position: absolute;
+    top: 45px;
+}
+.CasillaFormulario:valid {
+    border: green solid 2px;
+}
+.CasillaFormulario:invalid {
+    border: red solid 2px;
+}
+
+
+
+.CasillaFormulario {
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 4px;
+    margin: 10px 0px;
+}
+
+.TagFormulario{
+    margin: 10px 0px;
+    text-align: left;
+    font-weight: bold;
+}
+.perfilDeUsuario{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+}
+.Label{
+    margin-left: 15px;
+}
+.checkbox{
+    display: flex;
+}
+.BotonesRegistro {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px;
+}
+.BotonesRegistro input {
+    border: none;
+}
+
+/* ------------------ MEDIA QUERY ------------------ */  
+
+@media (min-width: 520px){
+    .descripcion {
+        display: block;
+        font-size: 16px;
+        color: #666;
+        padding-top: 20px;
+        visibility: hidden;
+        transition: all 100ms;
+    }
+    .main-header-bot {
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-header-top {
+        display: flex;
+        
+    }
+    .nav-l, .nav-r{
+        display: flex;
+        justify-content: space-around;
+        margin: 0 5px;
+    }
+
+    main article {
+        position: relative;
+        background-color: white;
+        border-radius: 3px;
+        transition: all 450ms;
+    }
+    main article:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    main article:hover .descripcion {
+        visibility: visible;
+        transition: all 200ms;
+    }
+    .articulos {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .productos {
+        width: 47%;
+        margin: 5px;
+    }
+    .burger-menu{
+        display: none;
+    }
+    .productos:hover .envio{
+        animation-name: voltear;
+        animation-duration: 1000ms;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    @keyframes voltear {
+        0% {
+            transform: rotate(0.0turn);
+        }
+        100% {
+            transform: rotateZ(-90deg);
+        }
+    }
+}
+
+
+@media (min-width: 786px){
+    .productos {
+        width: 23%;
+        margin: 5px;
+    }
+    .nav-l, .nav-r{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footerflex {
+        display: flex;
+    }
+    .copyright{
+        text-align: left;
+        justify-content: space-between;
+    }
+    .footersecciones{
+        margin: 0px 15px;
+    }
+    
+}
