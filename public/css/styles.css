@@ -324,7 +324,7 @@ footer{
 
 /* ------------------ MEDIA QUERY ------------------ */  
 
-@media (min-width: 520px){
+@media (min-width: 830px){
     .descripcion {
         display: block;
         font-size: 16px;
@@ -389,7 +389,7 @@ footer{
 }
 
 
-@media (min-width: 786px){
+@media (min-width: 1278px){
     .productos {
         width: 23%;
         margin: 5px;
