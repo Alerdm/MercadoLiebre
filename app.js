@@ -4,7 +4,7 @@ const path = require('path');
 
 app.use('/', express.static(__dirname + '/public'));
 
-app.listen(3000, ()=>{
+app.listen(process.nav.PORT || 3000, ()=>{
     console.log('Servidor funcionando');
 });
 
