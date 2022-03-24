@@ -27,9 +27,6 @@ ul {
     font-size: 12px;
     list-style-type: none;
 }
-.main-header-bot a {
-    margin: 4px;
-}
 
 
 
@@ -47,8 +44,14 @@ header {
     display: none;
 }
 .compraEnCuotas {
-    width: 300px;
-    text-align: right;
+    width:fit-content;
+    text-align: center;
+    display: block;
+    margin: 0px 20px 0px 20px;    
+}
+p.compraEnCuotas {
+    font-size: 16px;
+    font-weight: 600;
 }
 .burger-menu {
     background-color: #1259c3;
@@ -65,13 +68,14 @@ header {
 .mht-left a {
     margin-right: 10px;
 }
+
 .search-bar {
     height: 40px;
     align-self: center;
     border: none;
     border-radius: 5px;
     padding: 0px 4px;
-    width:  50%;
+    width:  45%;
 }
 
 .fa-search {
@@ -90,14 +94,15 @@ header {
 
 .mht-left {
     display: flex;
-    margin: 0px 10px;
+    flex-grow: 1;
+    margin: 0px 20px 10px 20px;
 }
 
-.compraEnCuotas {
-    display: block;
-    padding: 10px;
-    text-align: center;
-    width: fit-content;
+.main-header-bot a {
+    margin: 15px;
+    font-size: 16px;
+    color: rgb(43, 43, 43);
+    
 }
 
 
@@ -271,8 +276,8 @@ footer{
     visibility: visible;
     position: absolute;
     font-size: 0.5rem;
-    top: 25px;
-    right: 20px;
+    top: 15px;
+    left: -15px;
 }
 .divCasillaFormulario p{
     visibility: hidden;
@@ -318,9 +323,33 @@ footer{
     justify-content: space-evenly;
     margin: 20px 0px;
 }
+
 .BotonesRegistro input {
-    border: none;
+    border-radius: 5px;
+    background-color: white;
+    width: 200px;
+    height: 35px;
 }
+.BotonesRegistro a {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #1259c3;
+    width: 200px;
+    height: 35px;
+    transition: 250ms;
+}
+.BotonesRegistro a:hover {
+    background-color: #0022AA;
+    color: white;
+}
+
+
+
+
+
 
 /* ------------------ MEDIA QUERY ------------------ */  
 
